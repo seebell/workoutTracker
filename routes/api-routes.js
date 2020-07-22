@@ -25,24 +25,24 @@ module.exports = function (app) {
             });
     })
 
-    app.put("/api/workouts/:id", (req,res) => {
+    app.put("/api/workouts/:id", (req, res) => {
         Workout.update({ _id: req.params.id }, { $push: { exercises: req.body } })
-        .then(dbWorkout => {
-            res.json(dbWorkout);
-        })
-        .catch(err => {
-            res.json(err);
-        });
-      })
+            .then(dbWorkout => {
+                res.json(dbWorkout);
+            })
+            .catch(err => {
+                res.json(err);
+            });
+    })
 
     app.get("/api/workouts/range", ({ body }, res) => {
         Workout.find({})
-        .then(range => {
-            res.json(range);
-        })
-        .catch(err => {
-            res.json(err);
-        });
+            .then(range => {
+                res.json(range);
+            })
+            .catch(err => {
+                res.json(err);
+            });
     })
 
 }

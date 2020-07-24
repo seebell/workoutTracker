@@ -34,7 +34,7 @@ Npm i
 
 ## Running the app
 
-$ node server or deployed Heroku link
+$ node server or Heroku link for the deployed app
 
 ## Usage
 
@@ -52,3 +52,5 @@ A consumer will reach their fitness goals quicker when they track their workout 
  
 
 ## Heroku link for the deployed app
+
+https://powerful-mesa-89440.herokuapp.com/

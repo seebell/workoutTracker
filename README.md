@@ -49,7 +49,9 @@ As a user, I want to be able to view create and track daily workouts. I want to 
 A consumer will reach their fitness goals quicker when they track their workout progress.
 
 ## Screenshot for the app
- 
+![](https://github.com/seebell/workoutTracker/blob/master/public/images/wt1.png)<br>
+
+![](https://github.com/seebell/workoutTracker/blob/master/public/images/wt2.png)
 
 ## Heroku link for the deployed app
 
